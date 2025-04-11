@@ -1,0 +1,13 @@
+{
+    "id": "{55BE3B8C-6CD6-4274-B71E-4C8E0EF68D45}",
+    "name": "HelloWorld",
+    "type": 3,
+    "vendor": "Beispielautor",
+    "aliases": [
+        "Hello World"
+    ],
+    "parentRequirements": [],
+    "childRequirements": [],
+    "implemented": [],
+    "prefix": "HW"
+} 

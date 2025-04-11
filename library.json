@@ -1,17 +1,17 @@
 {
-    "id": "{86ef5a72-5c5a-4d27-a504-913306e81201}",
-    "name": "PID-Regler",
-    "title": "PID-Regler",
-    "description": "Ein Modul für IP-Symcon V8.0 zur Implementierung eines PID-Reglers mit Anti-Windup-Funktion",
+    "id": "{CA93019F-55D2-4563-9E6A-7F0A48567671}",
+    "name": "HelloWorld",
+    "title": "Hello World",
+    "description": "Ein einfaches Hello World Modul für IP-Symcon",
     "version": "1.0",
-    "vendor": "TOM24",
+    "vendor": "Beispielautor",
     "help": "https://www.symcon.de/service/dokumentation/module/",
     "url": "https://www.symcon.de",
-    "keywords": ["pid", "regler", "temperatur", "heizung", "ventil"],
+    "keywords": ["hello", "world", "beispiel"],
     "license": "LGPL-3.0-or-later",
     "info": {
-        "author": "TOM24",
-        "name": "PID-Regler",
+        "author": "Beispielautor",
+        "name": "Hello World",
         "version": "1.0"
     }
 } 

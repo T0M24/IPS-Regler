@@ -1,38 +1,59 @@
-# IPS PID-Regler Modul
+# Hello World
 
-Ein Modul für IP-Symcon V8.0 zur Implementierung eines PID-Reglers mit Anti-Windup-Funktion.
+Dieses Modul ist ein einfaches Beispiel für IP-Symcon ab Version 6.0.
 
-## Funktionen
+## Inhaltsverzeichnis
 
-- PID-Regelung mit einstellbaren Parametern (P, I, D)
-- Anti-Windup-Funktion zur Vermeidung der I-Anteil-Übersteuerung
-- Einstellbare Grenzen für die Stellgröße (0-100%)
-- Aktivierung/Deaktivierung des Reglers
-- Visualisierung von Sollwert, Istwert und Stellgröße
-- Zentrale Konfigurationsvariablen für einfache Parametrierung
+1. [Funktionsumfang](#1-funktionsumfang)
+2. [Voraussetzungen](#2-voraussetzungen)
+3. [Software-Installation](#3-software-installation)
+4. [Einrichten der Instanzen in IP-Symcon](#4-einrichten-der-instanzen-in-ip-symcon)
+5. [Statusvariablen und Profile](#5-statusvariablen-und-profile)
+6. [WebFront](#6-webfront)
+7. [PHP-Befehlsreferenz](#7-php-befehlsreferenz)
 
-## Installation
+## 1. Funktionsumfang
 
-1. Modul in IP-Symcon über den Modul-Store installieren
-2. Modul in der gewünschten Instanz hinzufügen
-3. Konfigurationsvariablen anpassen
-4. Ein- und Ausgangsvariablen verknüpfen
+* Ausgeben einer einfachen "Hello World"-Nachricht
+* Beispiel für die Struktur eines IP-Symcon-Moduls
 
-## Konfiguration
+## 2. Voraussetzungen
 
-### Erforderliche Variablen
-- Eingangsvariable (Temperatur in °C)
-- Ausgangsvariable (Ventilstellwert in %)
-- Sollwert
-- Aktivierung
+- IP-Symcon ab Version 6.0
 
-### Reglerparameter
-- P-Anteil
-- I-Anteil
-- D-Anteil
-- Anti-Windup-Begrenzung
-- Abtastzeit
+## 3. Software-Installation
 
-## Support
+* Über den Module Store das 'Hello World'-Modul installieren.
+* Alternativ über das Module Control folgende URL hinzufügen:
+  `https://github.com/IHR_BENUTZERNAME/HelloWorld`
 
-Bei Fragen oder Problemen wenden Sie sich bitte an den Support.
+## 4. Einrichten der Instanzen in IP-Symcon
+
+ Unter 'Instanz hinzufügen' kann das 'Hello World'-Modul mithilfe des Schnellfilters gefunden werden.  
+	- Weitere Informationen zum Hinzufügen von Instanzen in der [Dokumentation der Instanzen](https://www.symcon.de/service/dokumentation/konzepte/instanzen/#Instanz_hinzufügen)
+
+## 5. Statusvariablen und Profile
+
+Die Statusvariablen werden automatisch angelegt. Das Löschen einzelner kann zu Fehlfunktionen führen.
+
+### Statusvariablen
+
+Name | Typ | Beschreibung
+------------ | ------------- | -------------
+Message | String | Enthält die "Hello World"-Nachricht
+
+### Profile
+
+Es werden keine zusätzlichen Profile benötigt.
+
+## 6. WebFront
+
+Die Statusvariablen werden im WebFront angezeigt.
+
+## 7. PHP-Befehlsreferenz
+
+`void HW_UpdateMessage(integer $InstanzID);`
+Aktualisiert die "Hello World"-Nachricht.
+
+Beispiel:
+`HW_UpdateMessage(12345);` 

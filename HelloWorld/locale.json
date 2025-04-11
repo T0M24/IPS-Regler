@@ -1,0 +1,14 @@
+{
+    "translations": {
+        "de": {
+            "Hello World": "Hallo Welt",
+            "Message": "Nachricht",
+            "It is now": "Es ist jetzt"
+        },
+        "en": {
+            "Hello World": "Hello World",
+            "Message": "Message",
+            "It is now": "It is now"
+        }
+    }
+} 
