@@ -8,10 +8,5 @@
     "help": "https://www.symcon.de/service/dokumentation/module/",
     "url": "https://www.symcon.de",
     "keywords": ["hello", "world", "beispiel"],
-    "license": "LGPL-3.0-or-later",
-    "info": {
-        "author": "TOM24",
-        "name": "Hello World",
-        "version": "1.0"
-    }
+    "author": "TOM24"
 } 
