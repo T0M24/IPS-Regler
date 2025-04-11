@@ -1,0 +1,38 @@
+{
+    "id": "{A5F3AB43-AF03-4AB2-B5C4-52D1224C83DD}",
+    "name": "PID-Regler",
+    "title": "PID-Regler",
+    "description": "Ein Modul für IP-Symcon V8.0 zur Implementierung eines PID-Reglers mit Anti-Windup-Funktion",
+    "version": "1.0",
+    "vendor": "Symcon",
+    "help": "https://www.symcon.de/service/dokumentation/module/",
+    "url": "https://www.symcon.de",
+    "keywords": ["pid", "regler", "temperatur", "heizung", "ventil"],
+    "license": "LGPL-3.0-or-later",
+    "info": {
+        "author": "Symcon",
+        "name": "PID-Regler",
+        "version": "1.0"
+    },
+    "module": {
+        "name": "PIDRegler",
+        "description": "PID-Regler mit Anti-Windup-Funktion",
+        "id": "{B5F3AB43-AF03-4AB2-B5C4-52D1224C83DD}",
+        "version": "1.0",
+        "vendor": "Symcon",
+        "type": 1,
+        "lib": "PIDRegler",
+        "caption": "PID-Regler",
+        "icon": "pid",
+        "files": [
+            "modules/PIDRegler.php"
+        ]
+    },
+    "dependencies": {
+        "required": {
+            "IPS": {
+                "minimum": "8.0"
+            }
+        }
+    }
+} 
