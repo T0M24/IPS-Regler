@@ -4,13 +4,13 @@
     "title": "Hello World",
     "description": "Ein einfaches Hello World Modul für IP-Symcon",
     "version": "1.0",
-    "vendor": "Beispielautor",
+    "vendor": "TOM24",
     "help": "https://www.symcon.de/service/dokumentation/module/",
     "url": "https://www.symcon.de",
     "keywords": ["hello", "world", "beispiel"],
     "license": "LGPL-3.0-or-later",
     "info": {
-        "author": "Beispielautor",
+        "author": "TOM24",
         "name": "Hello World",
         "version": "1.0"
     }
