@@ -13,26 +13,5 @@
         "author": "TOM24",
         "name": "PID-Regler",
         "version": "1.0"
-    },
-    "module": {
-        "name": "PIDRegler",
-        "description": "PID-Regler mit Anti-Windup-Funktion",
-        "id": "{B5F3AB43-AF03-4AB2-B5C4-52D1224C83DD}",
-        "version": "1.0",
-        "vendor": "Symcon",
-        "type": 1,
-        "lib": "PIDRegler",
-        "caption": "PID-Regler",
-        "icon": "pid",
-        "files": [
-            "modules/PIDRegler.php"
-        ]
-    },
-    "dependencies": {
-        "required": {
-            "IPS": {
-                "minimum": "8.0"
-            }
-        }
     }
 } 
