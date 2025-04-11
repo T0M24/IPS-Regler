@@ -1,16 +1,16 @@
 {
-    "id": "{A5F3AB43-AF03-4AB2-B5C4-52D1224C83DD}",
+    "id": "{86ef5a72-5c5a-4d27-a504-913306e81201}",
     "name": "PID-Regler",
     "title": "PID-Regler",
     "description": "Ein Modul für IP-Symcon V8.0 zur Implementierung eines PID-Reglers mit Anti-Windup-Funktion",
     "version": "1.0",
-    "vendor": "Symcon",
+    "vendor": "TOM24",
     "help": "https://www.symcon.de/service/dokumentation/module/",
     "url": "https://www.symcon.de",
     "keywords": ["pid", "regler", "temperatur", "heizung", "ventil"],
     "license": "LGPL-3.0-or-later",
     "info": {
-        "author": "Symcon",
+        "author": "TOM24",
         "name": "PID-Regler",
         "version": "1.0"
     },
